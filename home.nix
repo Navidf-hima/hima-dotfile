@@ -22,7 +22,8 @@
     grim
     slurp
     wl-clipboard
-    cliphist       # নোটিফিকেশন এলার্ট
+    cliphist
+    xfce.thunar-volman
   ];
 
     wayland.windowManager.hyprland = {
