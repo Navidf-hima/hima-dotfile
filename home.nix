@@ -18,7 +18,11 @@
     thunar       # স্ট্যাটাস বার
     dunst
     psmisc 
-    nerd-fonts.jetbrains-mono       # নোটিফিকেশন এলার্ট
+    nerd-fonts.jetbrains-mono
+    grim
+    slurp
+    wl-clipboard
+    cliphist       # নোটিফিকেশন এলার্ট
   ];
 
     wayland.windowManager.hyprland = {

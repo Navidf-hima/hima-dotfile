@@ -101,6 +101,16 @@
 
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
+    
+   # ব্লুটুথ হার্ডওয়্যার এবং ব্যাকগ্রাউন্ড সার্ভিস চালু করা
+  hardware.bluetooth.enable = true;
+  hardware.bluetooth.powerOnBoot = true; # 'powerOnOnBoot' এর বদলে 'powerOnBoot' হবে
+
+  # ব্লুটুথ কন্ট্রোল করার জন্য ব্লুম্যান (Blueman) ম্যানেজার চালু করা
+  services.blueman.enable = true;
+
+
+
 
   # Open ports in the firewall.
   # networking.firewall.allowedTCPPorts = [ ... ];
