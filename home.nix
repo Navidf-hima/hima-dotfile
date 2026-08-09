@@ -25,6 +25,7 @@
     cliphist
     xfce.thunar-volman
     easyeffects
+    fastfetch
   ];
 
     wayland.windowManager.hyprland = {
