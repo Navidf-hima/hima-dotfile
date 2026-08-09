@@ -24,6 +24,7 @@
     wl-clipboard
     cliphist
     xfce.thunar-volman
+    easyeffects
   ];
 
     wayland.windowManager.hyprland = {
